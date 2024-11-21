@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment variable files
+/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# npm package-lock files
+package-lock.json
+
+# Mac system files
+.DS_Store
+
+# IDE and editor files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Build directory (if using a build tool)
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
