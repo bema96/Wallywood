@@ -1,0 +1,79 @@
+/* Generel styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Poster list styling */
+#posterList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Poster item styling */
+#posterList li {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#posterList img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#posterList h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+#posterList p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Buttons */
+#posterList button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.read-more {
+  background-color: #007BFF;
+  color: white;
+}
+
+.favorite {
+  background-color: #FFC107;
+  color: white;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+.favorite:hover {
+  background-color: #e0a800;
+}
